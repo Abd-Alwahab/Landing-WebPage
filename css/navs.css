@@ -1,0 +1,321 @@
+/* =================== add some General style ================*/
+
+
+
+
+/* =================== add some General style ================*/
+
+html {
+      height: 100%;
+  }
+
+  body {
+      height: 100%;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #797979;
+      line-height: 1.5;
+  }
+
+
+  .add-padding {
+      padding: 80px 10px;
+  }
+
+
+/* =================== add some style to the navigation section ================*/
+
+
+  .navbar {
+
+      background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.58));
+      box-shadow: 3px 3px 3px #132126;
+  }
+
+
+  .navbar-light .navbar-nav .nav-link {
+      color: #fff;
+      font-size: 80%;
+      font-weight: bold;
+      margin-top: 10
+  }
+
+.navbar-light .navbar-nav .nav-item:hover {
+    background-color: orange;
+    color: #000;
+}
+
+  #logo {
+      color: #fff;
+      font-size: 120%;
+  }
+
+  #logo i {
+      color: orange;
+  }
+
+/* =================== add some style to the navigation section ================*/
+
+
+.fixnav {
+   background-image: linear-gradient(#fff,#fff);
+   box-shadow: 3px 3px 3px #132126;
+    z-index: 10000;
+}
+
+
+.fixnav.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.fixnav #logo {
+    color: #000;
+    font-size: 120%;
+}
+        
+
+
+/* =================== add some style to the header section ================*/
+
+
+  .btn-one {
+      background-color: orange;
+      font-size: 90%;
+      margin-right: 20px;
+  }
+
+  .btn-two {
+      background-color: #000;
+      font-size: 90%;
+  }
+
+  #content {
+      height: 100%;
+      padding: 25% 1% 15% 1%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.58)), url(../image.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      text-align: center;
+      color: #fff;
+
+  }
+
+  #content p {
+      word-spacing: 3px;
+      letter-spacing: 2px;
+  }
+
+  #content hr {
+      max-width: 200px;
+      background-color: orange;
+  }
+
+  #content a {
+      border: 1px solid #222;
+      border-radius: 4px;
+      padding: 7px 20px;
+      min-width: 120px;
+  }
+
+  #content a:hover {
+      background-color: #222;
+  }
+
+/* =================== add some style to the Gallery section ================*/
+
+
+  .gallery {
+      padding: 80px 10px;
+      
+  }
+
+
+
+  .gallery img {
+      margin-bottom: 10px;
+      
+      transition: transform 0.5s;
+      
+  }
+
+
+  .gallery img:hover {
+      transform: translate(10px,10px);
+      
+}
+
+
+/* =================== add some style to the reuseable section ================*/
+
+
+  h1 {
+      font-weight: 100;
+      font-size: 200%;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+  }
+
+  h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 200;
+  }
+
+  h2:after {
+      display: block;
+      content: "";
+      width: 100px;
+      background-color: orange;
+      height: 3px;
+      margin: 40px auto;
+
+
+
+  }
+
+/* =================== add some style to the sections section ================*/
+
+
+  .fet {
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+      padding: 5px 5px;
+  }
+
+  .fet img {
+
+      margin-bottom: 20px;
+
+  }
+
+  .fet i {
+      font-size: 350%;
+      color: orange;
+      margin-bottom: 30px;
+  }
+
+.fet h3 {
+    margin-bottom: 10px;
+}
+
+
+/* =================== add some style to the plans section ================*/
+
+
+  .borderless li {
+      border: none;
+  }
+
+
+
+  .plan {
+      padding: 3%;
+      margin: 1% 0 3% 0;
+      border: 1px solid #eee;
+  }
+
+  .plan h3 {
+      margin-bottom: 15px;
+      font-weight: 200;
+      font-size: 180%;
+      color: orange;
+  }
+
+  .plan a {
+      min-width: 130px;
+      margin-top: 40px;
+      color: #fff !important;
+      font-weight: bold;
+  }
+
+
+/* =================== add some style to the Customers section ================*/
+
+  .full-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.58)), url(../image.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+      font-size: 90%;
+
+
+  }
+
+  .full-image img {
+      display: block;
+      margin-top: 20px;
+      width: 100px;
+      height: 100px;
+  }
+
+
+/* =================== add some style to the contact section ================*/
+
+
+  form input,
+  textarea {
+      margin-bottom: 15px;
+      max-width: 520px;
+      font-family: 'Lato', sans-serif;
+  }
+
+
+  form textarea {
+      height: 170px !important;
+  }
+
+  form input[type="submit"] {
+      min-width: 150px;
+      background-color: orange;
+      color: #fff;
+  }
+
+
+/* =================== add some style to the footer section ================*/
+
+
+
+  .footer {
+      background-color: #222;
+      padding: 20px 0;
+      height: 60px;
+  }
+
+  .footer p {
+      font-size: 80%;
+  }
+
+
+/* =================== add some animation to the section ================*/
+
+.fet {
+    opacity: 0;
+}
+
+.fet.animated {
+    opacity: 1;
+}
+
+
+
+.hero-text {
+    opacity: 0;
+}
+
+.hero-text.animated {
+    opacity: 1;
+}
+
+.btn-one {
+    opacity: 0;
+}
+
+.btn-one.animated {
+    opacity: 1;
+}
